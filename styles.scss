@@ -1,5 +1,10 @@
+$color-main: #ffd86f;
+$color-dark: #000000;
+$color-white: #ffffff;
+
 body {
-    background-color: #ffd86f;
+    background-color: $color-main;
+    text-transform: lowercase;
 }
 
 .nav-links {
@@ -8,6 +13,22 @@ body {
 
         a {
             text-decoration: none;
+            color: $color-white;
+
+            &:hover {
+                color: $color-main;
+            }
         }
+    }
+}
+
+.btn-custom {
+    background: $color-dark;
+    color: $color-white;
+    border-radius: 30px;
+    width: 200px;
+
+    &:hover {
+        color: $color-main;
     }
 }

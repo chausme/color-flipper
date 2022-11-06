@@ -1,1 +1,1 @@
-body{background-color:#ffd86f}.nav-links li{list-style-type:none}.nav-links li a{text-decoration:none}/*# sourceMappingURL=styles.css.map */
+body{background-color:#ffd86f;text-transform:lowercase}.nav-links li{list-style-type:none}.nav-links li a{text-decoration:none;color:#fff}.nav-links li a:hover{color:#ffd86f}.btn-custom{background:#000;color:#fff;border-radius:30px;width:200px}.btn-custom:hover{color:#ffd86f}/*# sourceMappingURL=styles.css.map */
