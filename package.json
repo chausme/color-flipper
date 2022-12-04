@@ -1,0 +1,25 @@
+{
+  "name": "simple-color-flipper",
+  "version": "1.0.0",
+  "description": "Random background color changer based on [Vanilla Javacript Projects](https://www.vanillajavascriptprojects.com/)",
+  "source": "./src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chausme/color-flipper.git"
+  },
+  "author": "chausme",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chausme/color-flipper/issues"
+  },
+  "homepage": "https://github.com/chausme/color-flipper#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.0",
+    "parcel": "^2.8.0"
+  }
+}
